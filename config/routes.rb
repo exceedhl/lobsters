@@ -1,7 +1,7 @@
 Lobsters::Application.routes.draw do
   scope :format => "html" do
     root :to => "home#index",
-      :protocol => (Rails.env == "production" ? "https://" : "http://")
+      :protocol => (Rails.env == "production" ? "http://" : "http://")
 
     get "/rss" => "home#index", :format => "rss"
     get "/hottest" => "home#index", :format => "json"
