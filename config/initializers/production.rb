@@ -1,10 +1,10 @@
  class << Rails.application
     def domain
-      "www.cocowrite.com"
+      "cocowrite.com"
     end
 
     def name
-      "www.cocowrite.com"
+      "cocowrite.com"
     end
   end
 

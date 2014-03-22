@@ -3,7 +3,7 @@ production: &prod
   encoding: utf8
   reconnect: false
   database: lobsters
-  socket: /var/lib/mysql/mysql.sock
+  socket: /var/run/mysqld/mysqld.sock
   username: root
   password: password
 
