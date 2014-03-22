@@ -5,7 +5,7 @@ gem "therubyracer"
 gem "rails", "4.0.2"
 
 # Use mysql2 as the database for Active Record
-gem "mysql2", ">= 0.3.14"
+gem "mysql2", "~> 0.3.15"
 
 # Use PostgreSQL as the database for Active Record
 # gem "pg"
@@ -35,7 +35,7 @@ gem "rdiscount"
 
 gem "oauth"
 
-gem "thinking-sphinx", "~> 3.0.6"
+gem "thinking-sphinx", "~> 3.1.0"
 
 gem "mail"
 
