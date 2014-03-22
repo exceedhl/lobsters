@@ -1,0 +1,1 @@
+Lobsters::Application.config.secret_token = '682882e9022a83aee6460caff114a4efdedb8e644f9eb95b072279af27df577f0e3ed6de37b80628d48c741e1af805f0004c1846832eb86b3968b9f93bae7afb'
